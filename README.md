@@ -20,3 +20,7 @@
 * Test to add duplicate and multiple (more than 10) todo items
 * Test to Edit completed todo list with empty spaces
 * verify add new todo item using keyboard event other than enter (Add Mode))
+
+## Test Result
+
+![Test Result on Github Actions](https://github.com/Jyotsna59/wk_todo_automation/runs/6850776655?check_suite_focus=true)
