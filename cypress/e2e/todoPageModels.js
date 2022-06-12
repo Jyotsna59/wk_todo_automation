@@ -11,6 +11,7 @@ class TodoPageModels {
   gettodocount() { return cy.get('.todo-count') }
 
   //Function
+  
   visit() {
     cy.visit('/')
     cy.contains('h1', 'todos').should('be.visible')
