@@ -1,0 +1,11 @@
+{
+  "invalid_data1": "????????????????????????????????????????????????????????????????????????????????",
+  "invalid_data2": "?><,./][12345678900!@#$)(*&%^$';Wolters Kluwer (AEX: WKL) is a leading global provider of information, software, and services for professionals. We serve customers in more than 180 countries, operating through four divisions: Health; Tax & Accounting; Governance, Risk & Compliance; and Legal & Regulatory. The Company is committed to helping professionals improve the way they do business and solve complex problems with confidence in an ever-changing world.",
+  "whitespace_data":"  ",
+  "todo_item1": "Send Email to hello@cypress.io",
+  "todo_item2": "Go through assessment and  create and execute script",
+  "todo_item3": "Submit assigment",
+  "edit_todo_item2": "Call to +91 5647354637867868767 & Go through assessment and  create and execute script",
+  "edit_todo_item3":"Reassess & Submit assigment",
+  "baseUrl": "https://todomvc.com/examples/angular2/"
+}
