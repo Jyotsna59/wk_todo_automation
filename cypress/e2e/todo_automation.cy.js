@@ -55,20 +55,7 @@ describe('WK Todos Test', function () {
     todopagemodels.geteditbox().should('be.visible').type(`${this.testdata.edit_todo_item1}{enter}`)
   })
 
-  it('Test to Edit completed todo list item', function () {
-    cy.log("Edit completed todo task.");
-    todopagemodels.addnewtodo().type(`${this.testdata.todo_item1}{enter}`)
-    todopagemodels.addnewtodo().type(`${this.testdata.todo_item2}{enter}`)
-    todopagemodels.addnewtodo().type(`${this.testdata.todo_item3}{enter}`)
-    todopagemodels.getcompletecheckbox().eq(2).click()
-    todopagemodels.getcompletecheckbox().eq(2).should('be.checked')
-    todopagemodels.gettodoitem().eq(2).should('have.css', 'text-decoration', 'line-through solid rgb(217, 217, 217)')
-    todopagemodels.gettodoitem().should('have.length', 3)
-    todopagemodels.gettodoitem().eq(2).dblclick()
-    todopagemodels.getcompletededitbox().should('be.visible').type(`${this.testdata.edit_todo_item2}{enter}`)
-  })
-
-  it('Complete all tasks', function () {
+  it('Test to complete all tasks', function () {
     cy.log("Complete all todo list item");
     todopagemodels.addnewtodo().type(`${this.testdata.todo_item1}{enter}`)
     todopagemodels.addnewtodo().type(`${this.testdata.todo_item2}{enter}`)
@@ -143,5 +130,11 @@ describe('WK Todos Test', function () {
     todopagemodels.addnewtodo().type(`${this.testdata.todo_item2}{enter}`)
     todopagemodels.addnewtodo().type(`${this.testdata.todo_item3}{enter}`)
     todopagemodels.gettodoitem().should('have.length', 12)
+  })
+
+  it('Test: verify add new todo item using keyboard event other than enter (Add Mode)) ', function () {
+    cy.log("Verify other then Enter keyboard event");
+    todopagemodels.addnewtodo().type(`${this.testdata.todo_item1}{end}`)
+    todopagemodels.getfooter().should('not.exist');
   })
 })
