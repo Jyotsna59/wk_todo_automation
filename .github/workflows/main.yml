@@ -1,4 +1,4 @@
-name: Cypress Automation Test
+name: Cypress WK Automation Test
 
 on: [push]
 
