@@ -25,4 +25,4 @@
 
 Github Repository Path: https://github.com/Jyotsna59/wk_todo_automation
 
-![wk-assignment_passing_result](https://user-images.githubusercontent.com/100390389/173241588-4e49665a-b84d-41fd-915e-d6c6590dff6d.JPG)
+<img src="https://user-images.githubusercontent.com/100390389/173241588-4e49665a-b84d-41fd-915e-d6c6590dff6d.JPG" alt="wk-assignment_passing_result" width="250"/>
