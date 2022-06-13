@@ -5,8 +5,18 @@
 <u> Rules:</u>
 * Create 4 positive and 4 negative automation scenarios for the functionality of the applications.
 * The results should be sent back in about 3 days
-
 ### Automation Tool Used: Cypress
+
+### Instructions to execute from Visual Studio Code (local):
+1) Download Node.js and Cypress (To download and install Npm we need Node.JS)
+2) Download visual studio code - to write and run code (open source editor)
+3) Run Visual Studio and open your project path
+4) To initialize npm run command : npm -i init (it will create structure and package.json file  (dependencies))
+5) To install cypress run npm install cypress --save-dev - this will add cypress version dependency to Package.json file
+6) To open/run Cypress run command ./node_modules/.bin/cypress open
+7) 2 ways to run either by Cypress App >e2e can run directly or From terminal run 'npm test'
+
+
 ## <u>Test Cases for To-Do List App </u>
 * Test to Add Items in todo list
 * Test to complete a todo item and verify clear complete link functionality
