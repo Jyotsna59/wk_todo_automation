@@ -6,7 +6,7 @@
 * Create 4 positive and 4 negative automation scenarios for the functionality of the applications.
 * The results should be sent back in about 3 days
 
-## Automation Tool Used: Cypress
+### Automation Tool Used: Cypress
 ## <u>Test Cases for To-Do List App </u>
 * Test to Add Items in todo list
 * Test to complete a todo item and verify clear complete link functionality
